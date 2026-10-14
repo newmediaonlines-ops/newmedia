@@ -97,17 +97,31 @@
             padding: 20px 0;
             box-shadow: 0 2px 15px rgba(0, 0, 0, 0.04);
         }
+        
+.navbar-brand {
+    font-size: 38px;
+    font-weight: 900;
+    color: var(--dark-color);
+    letter-spacing: 1.2px;
+    line-height: 1;
+    white-space: nowrap;
+    transition: 0.3s ease;
+    text-shadow: 2px 2px 0 #d7d7df;
+    text-decoration: none;
+}
 
-        .navbar-brand {
-            font-size: 28px;
-            font-weight: 700;
-            color: var(--dark-color);
-            letter-spacing: 1px;
-        }
+.navbar-brand span {
+    color: var(--primary-color);
+    font-weight: 900;
+    text-shadow: 2px 2px 0 #c3c2f5;
+}
 
-        .navbar-brand span {
-            color: var(--primary-color);
-        }
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 28px;
+    }
+}
+        
 
         .navbar-nav .nav-link {
             color: var(--dark-color);
@@ -153,13 +167,19 @@
         }
 
         .hero h1 {
-            font-size: 70px;
-            line-height: 1.1;
+            font-family: 'Inter', sans-serif;
+            font-size: 58px;
+            font-weight: 800;
+            line-height: 1.15;
+            letter-spacing: -1.8px;
+            color: var(--dark-color);
             margin-bottom: 25px;
         }
 
         .hero h1 span {
+            display: block;
             color: var(--primary-color);
+            font-weight: 800;
         }
 
         .hero p {
@@ -197,7 +217,8 @@
             font-weight: 700;
         }
 
-        .chart {
+        
+       .chart {
             height: 150px;
             display: flex;
             align-items: flex-end;
@@ -217,19 +238,19 @@
         }
 
         .bar:nth-child(2) {
-            height: 50%;
+            height: 40%;
         }
 
         .bar:nth-child(3) {
-            height: 45%;
+            height: 55%;
         }
 
         .bar:nth-child(4) {
-            height: 70%;
+            height: 66%;
         }
 
         .bar:nth-child(5) {
-            height: 65%;
+            height: 75%;
         }
 
         .bar:nth-child(6) {
@@ -714,7 +735,12 @@
         /* =========================
            RESPONSIVE
         ========================= */
-
+        @media (max-width:576px){
+            .navbar-brand{
+                font-size: 29px;
+                letter-spacing: 0.8px;
+            }
+        }
         @media (max-width: 1199px) {
 
             .hero h1 {
@@ -919,6 +945,7 @@
             }
         }
 
+
 /* WhatsApp Floating Button */
 .whatsapp-float {
     position: fixed;
@@ -1046,21 +1073,20 @@
                         Digital Marketing Agency
                     </div>
 
+
                     <h1>
-                        Your Brand.
-                        <span>Our Strategy.</span>
-                    </h1>
+                       Professional
+                     <span>Telecalling,</span>
+                     <span>Lead Generation &</span>
+                     <span>IT Solutions.</span>
+                   </h1>
 
                     <p>
-                        We Help Businesses Connect With Their Customers,
-
-                        Build Their Online Presence And Grow Through
-
-                        Effective Digital Marketing Solutions.
+                        Empowering Businesses with Professional Telecalling, Quality Lead Generation, Efficient Database Management, and Innovative IT Solutions.
                     </p>
 
-                    <a href="#services" class="btn btn-primary-custom">
-                        Explore Services
+                    <a href="#contact" class="btn btn-primary-custom">
+                        Let's Connect
                     </a>
 
                 </div>
@@ -1090,7 +1116,7 @@
                                     </div>
 
                                 </div>
-
+                               
                                 <div class="chart">
 
                                     <div class="bar"></div>
@@ -1101,6 +1127,7 @@
                                     <div class="bar"></div>
 
                                 </div>
+                                 
 
                             </div>
 
@@ -1246,7 +1273,7 @@
                         <a href="#contact"
                            class="btn btn-primary-custom service-connect">
 
-                            Let's Connect
+                            Get A Free Consultation
 
                         </a>
 
@@ -1318,7 +1345,7 @@
                         <a href="#contact"
                            class="btn btn-primary-custom service-connect">
 
-                            Let's Connect
+                            Get A Free Consultation
 
                         </a>
 
@@ -1379,7 +1406,7 @@
                         <a href="#contact"
                            class="btn btn-primary-custom service-connect">
 
-                            Let's Connect
+                            Get A Free Consultation
 
                         </a>
 
@@ -1440,28 +1467,28 @@
                             <li>
                                 <i class="fas fa-check-circle"></i>
                                 <span>
-                                    Customer-Focused Solutions
+                                    Educational Institute
                                 </span>
                             </li>
 
                             <li>
                                 <i class="fas fa-check-circle"></i>
                                 <span>
-                                    Digital-First Approach
+                                    Healthcare|Clinic|Hospital
                                 </span>
                             </li>
 
                             <li>
                                 <i class="fas fa-check-circle"></i>
                                 <span>
-                                    Flexible Solutions For Businesses
+                                    Telecommunication And Internet Service
                                 </span>
                             </li>
 
                             <li>
                                 <i class="fas fa-check-circle"></i>
                                 <span>
-                                    Focus On Measurable Growth
+                                    Professional Service And Consulting
                                 </span>
                             </li>
 
@@ -1805,6 +1832,12 @@
                         <li>
                             <a href="#services">
                                 Website Development
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#services">
+                            Lead Generation
                             </a>
                         </li>
 
